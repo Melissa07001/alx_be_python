@@ -2,5 +2,12 @@
 number1 = 10
 number2 = 5
 
-sum_result = number1 + number2
-print(f"The sum is: {sum_result}")
+addition = number1 + number2
+subtraction = number1 - number2
+multiplication = number1 * number2
+division = number1 / number2
+
+print("Addition:", addition)
+print("Subtraction:", subtraction)
+print("Multiplication:", multiplication)
+print("Division:", division)
