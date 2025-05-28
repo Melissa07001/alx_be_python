@@ -1,16 +1,6 @@
 # basic_operations.py
+number1 = 10
+number2 = 5
 
-# This script performs basic arithmetic operations
-
-a = 10
-b = 5
-
-addition = a + b
-subtraction = a - b
-multiplication = a * b
-division = a / b
-
-print("Addition:", addition)
-print("Subtraction:", subtraction)
-print("Multiplication:", multiplication)
-print("Division:", division)
+sum_result = number1 + number2
+print(f"The sum is: {sum_result}")
