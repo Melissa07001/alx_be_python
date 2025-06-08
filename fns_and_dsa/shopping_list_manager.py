@@ -1,3 +1,4 @@
+cd path\to\alx_be_python\fns_and_dsa
 def display_menu():
     print("Shopping List Manager")
     print("1. Add Item")
