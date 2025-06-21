@@ -23,3 +23,22 @@ class PrintBook(Book):
 
     def __str__(self):
         return f"PrintBook: {self.title} by {self.author}, Page Count: {self.page_count}"
+class Book:
+    # your Book code here
+
+class EBook(Book):
+    # your EBook code here
+
+class PrintBook(Book):
+    # your PrintBook code here
+
+class Library:
+    def __init__(self):
+        self.books = []
+
+    def add_book(self, book):
+        self.books.append(book)
+
+    def list_books(self):
+        for book in self.books:
+            print(book)
